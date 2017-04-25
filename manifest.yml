@@ -1,0 +1,11 @@
+applications:
+- path: .
+  memory: 512M
+  instances: 1
+  domain: eu-gb.mybluemix.net
+  name: IoT-innolab-2517
+  host: IoT-innolab-2517
+  disk_quota: 1024M
+  services:
+  - IoT-innolab-2517-cloudantNoSQLDB
+  - IoT-innolab-2517-iotf-service
